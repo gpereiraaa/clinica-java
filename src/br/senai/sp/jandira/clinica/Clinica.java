@@ -17,8 +17,8 @@ public class Clinica {
 		// Criação dos objetos do tipo paciente
 		Paciente p1 = new Paciente();
 		p1.nome = "Ana Maria";
-		p1.setAltura(-1.65);
-		p1.setPeso(38);
+		p1.setAltura(1.65);
+		p1.setPeso(48);
 		p1.telefone = "(11)98888-8888";
 		p1.dataNascimento = LocalDate.of(2003, 2, 28);
 		p1.estaInternado = true;
@@ -32,7 +32,6 @@ public class Clinica {
 		p2.telefone = "(11)95886-3949";
 		p2.dataNascimento = LocalDate.of(2007, 4, 11);
 		p2.estaInternado = false;
-		
 		
 		// Mostrar dados do paciente 1
 		p1.mostrarFichaPaciente();
