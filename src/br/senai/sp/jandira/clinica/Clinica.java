@@ -17,18 +17,18 @@ public class Clinica {
 		// Criação dos objetos do tipo paciente
 		Paciente p1 = new Paciente();
 		p1.nome = "Ana Maria";
-		p1.altura = 1.65;
-		p1.peso = 68.200;
+		p1.setAltura(-1.65);
+		p1.setPeso(38);
 		p1.telefone = "(11)98888-8888";
-		p1.dataNascimento = LocalDate.of(2003, 7, 15);
+		p1.dataNascimento = LocalDate.of(2003, 2, 28);
 		p1.estaInternado = true;
 		
 		
 		
 		Paciente p2 = new Paciente();
 		p2.nome = "Gustavo Pereira";
-		p2.altura = 1.77;
-		p2.peso = 80.000;
+		p2.setAltura(1.77);
+		p2.setPeso(85);
 		p2.telefone = "(11)95886-3949";
 		p2.dataNascimento = LocalDate.of(2007, 4, 11);
 		p2.estaInternado = false;
